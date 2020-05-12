@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_flous"
+    android:background="@drawable/baa">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:weightSum="100">
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="70dp"
+            android:hint="Achat"
+            android:gravity="center"
+            android:id="@+id/achat1"
+            android:textColor="#000"/>
+        <EditText
+            android:inputType="numberDecimal"
+            android:layout_width="150dp"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="20dp"
+            android:hint="Prix"
+            android:gravity="center"
+            android:id="@+id/prix1"
+            android:textColor="#000"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:layout_marginTop="50dp"
+            android:background="#DB5247"
+            android:text="Enregistrer"
+            android:id="@+id/bout"/>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
